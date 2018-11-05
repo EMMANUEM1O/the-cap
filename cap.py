@@ -22,11 +22,18 @@ if choice == "3":
 3.go right.
 4.cotiune go forwards.
 """)
-    choice1=input("What to do")
-    if choice==("1"):
+    choice1 = input("What to do")
+    if choice1 == "1":
         print("You sprint down the road back to the theatre but you are to late")
-        print("#fail")
-    print("YOU ARE DEAD, DEAD, DEAD! YOU ARE DEAD, DEAD, DEAD!  ")
+        time.sleep(5)
+        print("#FAIL")
+        time.sleep(2)
+        exit()
+    if choice1 == "2":
+        print("YOU ARE DEAD, DEAD, DEAD! YOU ARE DEAD, DEAD, DEAD!  ")
+        #complete next
+    if choice1 == "3":
+        #complete last  
 if choice == "2":
     print("You just stand there and grab some  more popcorn and wait for it to end. ")
     time.sleep(4)
