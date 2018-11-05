@@ -1,4 +1,4 @@
-#Capgamefile
+#Cap.py game file
 import time
 import os
 print("You walk out of the theatre ,and feel like there is nothing to do, and you start walking down the road.")
